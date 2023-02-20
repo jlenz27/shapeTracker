@@ -84,11 +84,8 @@ namespace ShapeTracker.Tests
         [TestMethod]
         public void CheckType_DeterminesWhenIsosceles_String()
         {
-            // Arrange
             Triangle isoscelesTri = new Triangle(5, 4, 4);
-            // Act
             string triType = isoscelesTri.CheckType();
-            // Assert
             Assert.AreEqual("isosceles triangle", triType);
         }
     }
